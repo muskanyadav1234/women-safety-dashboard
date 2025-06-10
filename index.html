@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women Safety Real-Time Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Women Safety Dashboard</h1>
+    </header>
+    <main>
+        <section class="dashboard">
+            <div class="dashboard-section">
+                <h2>Live Incident Map</h2>
+                <div id="map" style="height: 350px;"></div>
+                <button id="simulate-btn">Simulate New Incident</button>
+            </div>
+            <div class="dashboard-section">
+                <h2>Live Incident Type Distribution</h2>
+                <canvas id="liveChart"></canvas>
+            </div>
+            <div class="dashboard-section">
+                <h2>Incidents by City and Crime Type</h2>
+                <canvas id="barChart"></canvas>
+            </div>
+            <div class="dashboard-section">
+                <h2>Yearly Trend by City</h2>
+                <canvas id="lineChart"></canvas>
+            </div>
+            <div class="dashboard-section">
+                <h2>Upload Data</h2>
+                <input type="file" id="csvFileInput" accept=".csv">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Women Safety Dashboard</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

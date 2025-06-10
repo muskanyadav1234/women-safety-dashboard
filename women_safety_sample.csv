@@ -1,0 +1,36 @@
+city,year,crime_type,incidents
+Delhi,2022,Harassment,120
+Delhi,2022,Assault,80
+Mumbai,2022,Harassment,95
+Mumbai,2022,Assault,60
+Bangalore,2022,Harassment,70
+Bangalore,2022,Assault,40
+Chennai,2022,Harassment,50
+Chennai,2022,Assault,30
+Delhi,2023,Harassment,130
+Delhi,2023,Assault,90
+Mumbai,2023,Harassment,100
+Mumbai,2023,Assault,65
+Bangalore,2023,Harassment,75
+Bangalore,2023,Assault,45
+Chennai,2023,Harassment,55
+Chennai,2023,Assault,35
+West Bengal,2022,Harassment,110
+West Bengal,2022,Assault,85
+Tamil Nadu,2022,Harassment,90
+Tamil Nadu,2022,Assault,60
+Karnataka,2022,Harassment,70
+Karnataka,2022,Assault,40
+Kerala,2022,Harassment,50
+Kerala,2022,Assault,30
+Andhra Pradesh,2022,Harassment,60
+Andhra Pradesh,2022,Assault,45
+Rajasthan,2022,Harassment,55
+Rajasthan,2022,Assault,35
+Uttar Pradesh,2022,Harassment,75
+Uttar Pradesh,2022,Assault,50
+Haryana,2022,Harassment,80
+Haryana,2022,Assault,40
+Gujarat,2022,Harassment,65
+Gujarat,2022,Assault,35
+Maharashtra,2022,Harassment,70

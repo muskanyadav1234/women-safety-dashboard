@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Women Safety Incident Map</title>
+    <link rel="stylesheet" href="realtime_style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Real-Time Women Safety Incident Map</h1>
+    </header>
+    <main>
+        <div id="map" style="height: 400px;"></div>
+        <section class="dashboard-section">
+            <h2>Live Incident Statistics</h2>
+            <canvas id="liveChart"></canvas>
+        </section>
+        <section class="dashboard-section">
+            <button id="simulateBtn">Simulate New Incident</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Women Safety Real-Time Dashboard</p>
+    </footer>
+    <script src="realtime_script.js"></script>
+</body>
+</html>
